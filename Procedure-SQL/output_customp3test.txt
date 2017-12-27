@@ -1,0 +1,818 @@
+CONNECT to CS157a
+
+   Database Connection Information
+
+ Database server        = DB2/LINUXX8664 11.1.2.2
+ SQL authorization ID   = DB2INST1
+ Local database alias   = CS157A
+
+
+CALL P3.CUST_CRT('M1', 'M', 20, 1111, ?,?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : ID
+  Parameter Value : 100
+
+  Parameter Name  : SQL_CODE
+  Parameter Value : 0
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : -
+
+  Return Status = 0
+
+CALL P3.CUST_CRT('F2', 'F', 25, 2222, ?,?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : ID
+  Parameter Value : 101
+
+  Parameter Name  : SQL_CODE
+  Parameter Value : 0
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : -
+
+  Return Status = 0
+
+CALL P3.CUST_CRT('M3', 'M', 40, 3333, ?,?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : ID
+  Parameter Value : 102
+
+  Parameter Name  : SQL_CODE
+  Parameter Value : 0
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : -
+
+  Return Status = 0
+
+CALL P3.CUST_CRT('F4', 'F', 40, 4444, ?,?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : ID
+  Parameter Value : 103
+
+  Parameter Name  : SQL_CODE
+  Parameter Value : 0
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : -
+
+  Return Status = 0
+
+CALL P3.CUST_CRT('M5', 'M', 40, 5555, ?,?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : ID
+  Parameter Value : 104
+
+  Parameter Name  : SQL_CODE
+  Parameter Value : 0
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : -
+
+  Return Status = 0
+
+CALL P3.CUST_CRT('F6', 'F', 40, 6666, ?,?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : ID
+  Parameter Value : 105
+
+  Parameter Name  : SQL_CODE
+  Parameter Value : 0
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : -
+
+  Return Status = 0
+
+CALL P3.CUST_LOGIN(100, 1111, ?,?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : VALID
+  Parameter Value : 1
+
+  Parameter Name  : SQL_CODE
+  Parameter Value : 0
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : -
+
+  Return Status = 0
+
+CALL P3.CUST_LOGIN(101, 2222, ?,?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : VALID
+  Parameter Value : 1
+
+  Parameter Name  : SQL_CODE
+  Parameter Value : 0
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : -
+
+  Return Status = 0
+
+CALL P3.CUST_LOGIN(102, 3333, ?,?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : VALID
+  Parameter Value : 1
+
+  Parameter Name  : SQL_CODE
+  Parameter Value : 0
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : -
+
+  Return Status = 0
+
+CALL P3.ACCT_OPN(100, 100, 'C',?,?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : ACCOUNT_NUM
+  Parameter Value : 1000
+
+  Parameter Name  : SQL_CODE
+  Parameter Value : 0
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : -
+
+  Return Status = 0
+
+CALL P3.ACCT_OPN(100, 200, 'S',?,?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : ACCOUNT_NUM
+  Parameter Value : 1001
+
+  Parameter Name  : SQL_CODE
+  Parameter Value : 0
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : -
+
+  Return Status = 0
+
+CALL P3.ACCT_OPN(100, 300, 'S',?,?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : ACCOUNT_NUM
+  Parameter Value : 1002
+
+  Parameter Name  : SQL_CODE
+  Parameter Value : 0
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : -
+
+  Return Status = 0
+
+CALL P3.ACCT_OPN(101, 300, 'C',?,?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : ACCOUNT_NUM
+  Parameter Value : 1003
+
+  Parameter Name  : SQL_CODE
+  Parameter Value : 0
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : -
+
+  Return Status = 0
+
+CALL P3.ACCT_OPN(101, 400, 'S',?,?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : ACCOUNT_NUM
+  Parameter Value : 1004
+
+  Parameter Name  : SQL_CODE
+  Parameter Value : 0
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : -
+
+  Return Status = 0
+
+CALL P3.ACCT_OPN(102, 500, 'C',?,?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : ACCOUNT_NUM
+  Parameter Value : 1005
+
+  Parameter Name  : SQL_CODE
+  Parameter Value : 0
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : -
+
+  Return Status = 0
+
+CALL P3.ACCT_OPN(102, 600, 'S',?,?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : ACCOUNT_NUM
+  Parameter Value : 1006
+
+  Parameter Name  : SQL_CODE
+  Parameter Value : 0
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : -
+
+  Return Status = 0
+
+CALL P3.ACCT_OPN(103, 700, 'C',?,?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : ACCOUNT_NUM
+  Parameter Value : 1007
+
+  Parameter Name  : SQL_CODE
+  Parameter Value : 0
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : -
+
+  Return Status = 0
+
+CALL P3.ACCT_OPN(103, 800, 'S',?,?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : ACCOUNT_NUM
+  Parameter Value : 1008
+
+  Parameter Name  : SQL_CODE
+  Parameter Value : 0
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : -
+
+  Return Status = 0
+
+CALL P3.ACCT_OPN(104, 900, 'C',?,?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : ACCOUNT_NUM
+  Parameter Value : 1009
+
+  Parameter Name  : SQL_CODE
+  Parameter Value : 0
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : -
+
+  Return Status = 0
+
+CALL P3.ACCT_OPN(104, 1000, 'S',?,?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : ACCOUNT_NUM
+  Parameter Value : 1010
+
+  Parameter Name  : SQL_CODE
+  Parameter Value : 0
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : -
+
+  Return Status = 0
+
+CALL P3.ACCT_OPN(105, 1100, 'C',?,?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : ACCOUNT_NUM
+  Parameter Value : 1011
+
+  Parameter Name  : SQL_CODE
+  Parameter Value : 0
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : -
+
+  Return Status = 0
+
+CALL P3.ACCT_CLS(1000,?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : SQL_CODE
+  Parameter Value : 0
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : -
+
+  Return Status = 0
+
+SELECT NUMBER, BALANCE, STATUS FROM P3.ACCOUNT WHERE NUMBER = 1000
+
+NUMBER      BALANCE     STATUS
+----------- ----------- ------
+       1000           0 I
+
+  1 record(s) selected.
+
+
+CALL P3.ACCT_CLS(1001,?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : SQL_CODE
+  Parameter Value : 0
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : -
+
+  Return Status = 0
+
+SELECT NUMBER, BALANCE, STATUS FROM P3.ACCOUNT WHERE NUMBER = 1001
+
+NUMBER      BALANCE     STATUS
+----------- ----------- ------
+       1001           0 I
+
+  1 record(s) selected.
+
+
+CALL P3.ACCT_DEP(1002, 100, ?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : SQL_CODE
+  Parameter Value : 0
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : -
+
+  Return Status = 0
+
+CALL P3.ACCT_DEP(1002, 100, ?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : SQL_CODE
+  Parameter Value : 0
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : -
+
+  Return Status = 0
+
+CALL P3.ACCT_DEP(1003, 200, ?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : SQL_CODE
+  Parameter Value : 0
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : -
+
+  Return Status = 0
+
+CALL P3.ACCT_DEP(1003, 200, ?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : SQL_CODE
+  Parameter Value : 0
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : -
+
+  Return Status = 0
+
+CALL P3.ACCT_DEP(1004, 400, ?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : SQL_CODE
+  Parameter Value : 0
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : -
+
+  Return Status = 0
+
+SELECT NUMBER, BALANCE FROM p3.account where NUMBER IN(1002, 1003, 1004)
+
+NUMBER      BALANCE
+----------- -----------
+       1002         500
+       1003         700
+       1004         800
+
+  3 record(s) selected.
+
+
+CALL P3.ACCT_WTH(1002, 60, ?, ?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : SQL_CODE
+  Parameter Value : 0
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : -
+
+  Return Status = 0
+
+CALL P3.ACCT_WTH(1003, 20, ?, ?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : SQL_CODE
+  Parameter Value : 0
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : -
+
+  Return Status = 0
+
+CALL P3.ACCT_WTH(1004, 100, ?, ?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : SQL_CODE
+  Parameter Value : 0
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : -
+
+  Return Status = 0
+
+SELECT NUMBER, BALANCE FROM p3.account where NUMBER IN(1002, 1003, 1004)
+
+NUMBER      BALANCE
+----------- -----------
+       1002         440
+       1003         680
+       1004         700
+
+  3 record(s) selected.
+
+
+CALL P3.ACCT_TRX(1003, 1002, 60, ?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : SQL_CODE
+  Parameter Value : 0
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : -
+
+  Return Status = 0
+
+CALL P3.ADD_INTEREST (0.5, 0.1,?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : SQL_CODE
+  Parameter Value : 0
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : -
+
+  Return Status = 0
+
+SELECT NUMBER, BALANCE, TYPE FROM p3.account
+
+NUMBER      BALANCE     TYPE
+----------- ----------- ----
+       1000           0 C
+       1001           0 S
+       1002         750 S
+       1003         682 C
+       1004        1050 S
+       1005         550 C
+       1006         900 S
+       1007         770 C
+       1008        1200 S
+       1009         990 C
+       1010        1500 S
+       1011        1210 C
+
+  12 record(s) selected.
+
+
+CALL P3.CUST_CRT('M1', 'S', 20, 1111, ?,?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : ID
+  Parameter Value : -
+
+  Parameter Name  : SQL_CODE
+  Parameter Value : -444
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : Invalid inputs
+
+  Return Status = 0
+
+CALL P3.CUST_CRT('F2', '0', 25, 0000, ?,?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : ID
+  Parameter Value : -
+
+  Parameter Name  : SQL_CODE
+  Parameter Value : -444
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : Invalid inputs
+
+  Return Status = 0
+
+CALL P3.CUST_CRT('M3', 'M', -1, 2222, ?,?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : ID
+  Parameter Value : -
+
+  Parameter Name  : SQL_CODE
+  Parameter Value : -444
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : Invalid inputs
+
+  Return Status = 0
+
+CALL P3.CUST_LOGIN(102, 2222, ?, ?, ?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : VALID
+  Parameter Value : 0
+
+  Parameter Name  : SQL_CODE
+  Parameter Value : -200
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : Wrong PIN
+
+  Return Status = 0
+
+CALL P3.CUST_LOGIN(999, 9999, ?, ?, ?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : VALID
+  Parameter Value : 0
+
+  Parameter Name  : SQL_CODE
+  Parameter Value : 100
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : Not Found Account
+
+  Return Status = 0
+
+CALL P3.CUST_LOGIN(104, 444, ?, ?, ?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : VALID
+  Parameter Value : 0
+
+  Parameter Name  : SQL_CODE
+  Parameter Value : -200
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : Wrong PIN
+
+  Return Status = 0
+
+CALL P3.ACCT_OPN(102, 600, 'V',?,?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : ACCOUNT_NUM
+  Parameter Value : -
+
+  Parameter Name  : SQL_CODE
+  Parameter Value : -444
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : Invalid inputs
+
+  Return Status = 0
+
+CALL P3.ACCT_OPN(100, -100, 'S',?,?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : ACCOUNT_NUM
+  Parameter Value : -
+
+  Parameter Name  : SQL_CODE
+  Parameter Value : -300
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : Deposit Amount < 0
+
+  Return Status = 0
+
+CALL P3.ACCT_OPN(999, 700, 'S',?,?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : ACCOUNT_NUM
+  Parameter Value : -
+
+  Parameter Name  : SQL_CODE
+  Parameter Value : -444
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : Invalid inputs
+
+  Return Status = 0
+
+CALL P3.ACCT_CLS(9999,?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : SQL_CODE
+  Parameter Value : 100
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : Not Found Account
+
+  Return Status = 0
+
+CALL P3.ACCT_CLS(1015,?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : SQL_CODE
+  Parameter Value : 100
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : Not Found Account
+
+  Return Status = 0
+
+CALL P3.ACCT_DEP(9999, 22, ?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : SQL_CODE
+  Parameter Value : 100
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : Not Found | Closed Account
+
+  Return Status = 0
+
+CALL P3.ACCT_DEP(1004, -22, ?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : SQL_CODE
+  Parameter Value : -300
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : Deposit Amount < 0
+
+  Return Status = 0
+
+CALL P3.ACCT_DEP(1000, -22, ?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : SQL_CODE
+  Parameter Value : -300
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : Deposit Amount < 0
+
+  Return Status = 0
+
+CALL P3.ACCT_WTH(1000, 22, ?, ?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : SQL_CODE
+  Parameter Value : 100
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : Not Found | Closed Account
+
+  Return Status = 0
+
+CALL P3.ACCT_WTH(1002, 2000, ?, ?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : SQL_CODE
+  Parameter Value : -300
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : Balance < Withdraw Amount
+
+  Return Status = 0
+
+CALL P3.ACCT_WTH(1003, -88, ?, ?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : SQL_CODE
+  Parameter Value : -300
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : Withdraw Amount < 0
+
+  Return Status = 0
+
+CALL P3.ACCT_TRX(1003, 9999, 66, ?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : SQL_CODE
+  Parameter Value : 100
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : Not Found | Closed Account
+
+  Return Status = 0
+
+CALL P3.ACCT_TRX(1003, 1004, -66, ?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : SQL_CODE
+  Parameter Value : -300
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : Transfer Amount < 0
+
+  Return Status = 0
+
+CALL P3.ACCT_TRX(9999, 1004, 44, ?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : SQL_CODE
+  Parameter Value : 100
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : Not Found | Closed Account
+
+  Return Status = 0
+
+CALL P3.ADD_INTEREST (0.5, -0.1,?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : SQL_CODE
+  Parameter Value : -300
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : Checking Rate > 0 or < 1
+
+  Return Status = 0
+
+CALL P3.ADD_INTEREST (1.0, 3.0,?,?)
+
+  Value of output parameters
+  --------------------------
+  Parameter Name  : SQL_CODE
+  Parameter Value : -300
+
+  Parameter Name  : ERR_MSG
+  Parameter Value : Checking Rate > 0 or < 1
+
+  Return Status = 0
